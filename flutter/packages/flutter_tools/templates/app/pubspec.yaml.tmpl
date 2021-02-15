@@ -25,6 +25,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  hooks_riverpod:
+  state_notifier:
+  freezed_annotation:
+  fluttertoast:
 
 {{#withPluginHook}}
   {{pluginProjectName}}:
@@ -43,7 +47,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  pedantic_mono: any # add
+  pedantic_mono: any
+  build_runner:
+  freezed:
 {{#withDriverTest}}
   flutter_driver:
     sdk: flutter
