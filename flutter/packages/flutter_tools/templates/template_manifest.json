@@ -3,6 +3,7 @@
     "_comment": "A listing of all possible template output files.",
     "files": [
         "templates/app/analysis_options.yaml.tmpl",
+        "templates/app/build.yaml.tmpl",
         "templates/app/assets.tmpl/images/sample_image.jpeg",
         "templates/app/.gitignore.tmpl",
         "templates/app/.idea/libraries/Dart_SDK.xml.tmpl",
